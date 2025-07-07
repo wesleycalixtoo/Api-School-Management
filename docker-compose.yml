@@ -1,0 +1,8 @@
+services:
+  app:
+    build: .
+    container_name: school-management
+    ports:
+      - "8081:8081"
+    volumes:
+      - .:/app
